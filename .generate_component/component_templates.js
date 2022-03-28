@@ -16,7 +16,7 @@ export default {
 \tcomponent: ${name},
 };
 
-const ${name}Template = () => <${name} />;
+const ${name}Template = (args) => <${name} {...args}/>;
 
 export const ${name}Example = ${name}Template.bind({});
 
